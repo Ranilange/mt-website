@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+
+a {
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#nav-bar {
+    height: auto;
+
+    position: fixed;
+    z-index: 100;
+    background-color: #6097bf;
+}
+
+
+
+.nav-bar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.052);
+
+}
+
+
+
+
+
+.nav-list {
+    margin-left: 50%;
+
+}
+
+.bar {
+    margin-right: 40vw;
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: x-large;
+
+}
+
+.bar-link:hover {
+    transition-duration: 200ms;
+    color: black;
+}
+
+/* setion2 */
+
+
+
+.hero-container {
+
+    width: 100vw;
+    padding-top: 20vh;
+    justify-content: flex-end;
+    background-color: #6097BF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero-info-heading {
+    font-size: xx-large;
+}
+
+#hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.profolio-button {
+    background-color: #6097BF;
+    color: black;
+}
+
+.about-container {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3494d8, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6097BF, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#about {
+    min-height: 50vh;
+    padding: 10rem 5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img-wrapper {
+    height: 50vh;
+    width: 55vw;
+}
+
+
+
+.button {
+    background-color: #4c8caf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.about-info {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+#about-me-header {
+    text-align: center;
+}
+
+#img-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
+#services {
+    display: flex;
+    justify-content: center;
+}
+
+#services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+#flip-card-front1 {
+    background-color: #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#flip-card-front2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url(https://media.istockphoto.com/photos/taj-mahal-mausoleum-in-agra-picture-id1146517111?k=20&m=1146517111&s=612x612&w=0&h=vHWfu6TE0R5rG6DJkV42Jxr49aEsLN0ML-ihvtim8kk=);
+}
+
+#flip-card-back-header {
+    font-size: small;
+}
+
+#flip-card-front3 {
+    background-color: #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#hire-me {
+    min-height: 10vh;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.212);
+    margin-top: 10vh;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+.follow-me-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+.follow-me-icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+#toggle {
+    display: none;
+}
+
+/**
+    Hamburger
+  **/
+.hamburger {
+    position: absolute;
+    top: 5em;
+    right: 5%;
+    margin-left: -2em;
+    margin-top: -65px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+}
+
+.hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #f8982b;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/**
+  Nav Styles
+  **/
+
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #090E6B;
+    top: -100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+}
+
+.nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+nav {
+    text-align: left;
+    margin-left: 25%;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #6ecddd;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+nav a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:hover:before {
+    height: 100%;
+}
+
+/**
+  Animations
+  **/
+#toggle:checked+.hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+}
+
+#toggle:checked+.hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+#toggle:checked+.hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+}
+
+#toggle:checked+.hamburger+.nav {
+    top: 0;
+    transform: scale(1);
+}
+
+/* responsivy */
+
+@media only screen and (max-width: 768px) {
+    .bar {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-info {
+        width: 30vw;
+        height: 30vh;
+        display: flex;
+        font-size: larger;
+        flex-direction: column;
+        margin-bottom: 23vh;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .about-info {
+        margin-bottom: 40vh;
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #about {
+        min-height: 50vh;
+        padding: 10rem 5rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .flip-card {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #services {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
