@@ -91,10 +91,7 @@ a {
     height: 100%;
 }
 
-.profolio-button {
-    background-color: #6097BF;
-    color: black;
-}
+
 
 .about-container {
     background: #373B44;
@@ -124,7 +121,13 @@ a {
 
 
 .button {
-    background-color: #4c8caf;
+    background: #00B4DB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     border: none;
     color: white;
     padding: 15px 32px;
@@ -136,6 +139,21 @@ a {
     cursor: pointer;
 }
 
+.button:hover {
+    transition-duration: 1000ms;
+    background: #83a4d4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b6fbff, #83a4d4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b6fbff, #83a4d4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#facebook-logo {
+    color: blue;
+}
 
 .about-info {
     width: 30vw;
@@ -147,6 +165,11 @@ a {
 
 #about-me-header {
     text-align: center;
+}
+
+.link-download {
+    display: flex;
+    justify-content: center;
 }
 
 #img-wrapper {
