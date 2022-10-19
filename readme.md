@@ -1,7 +1,9 @@
 # My-Website 
-My website is my second project made in my fullstack-course.
+My website is my second project made in my fullstack-course. 
+
 in this project there are some new features, full responsivnes and a much better design.
-there are Links that move you to specific sites and links that move you to sections in the site
+
+there are Links that move you to specific sites and links that move you to sections in the site.
 
 big screen:
 ![2022-10-19 (4)](https://user-images.githubusercontent.com/110329486/196672658-729a0b6a-3ff6-4889-a721-2e3f4cfc7909.png)
